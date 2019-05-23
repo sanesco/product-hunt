@@ -11,7 +11,10 @@ gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 #Add Bootstrap
-gem 'bootstrap', '~> 4.3.1'
+#gem 'bootstrap', '~> 4.3.1'
+#Add bootstrap 3
+gem 'bootstrap-sass', '~> 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
 #Add Jquery
 gem 'jquery-rails'
 # Use Uglifier as compressor for JavaScript assets
@@ -30,6 +33,10 @@ gem 'jbuilder', '~> 2.5'
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
+gem 'gravatar-ultimate'
+
+#Add xmlrpc for rails new version
+gem 'xmlrpc'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
