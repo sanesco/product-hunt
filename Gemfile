@@ -37,6 +37,9 @@ gem 'gravatar-ultimate'
 
 #Add xmlrpc for rails new version
 gem 'xmlrpc'
+
+#Add annotate
+gem 'annotate'
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
