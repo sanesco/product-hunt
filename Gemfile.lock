@@ -49,6 +49,7 @@ GEM
     arel (9.0.0)
     autoprefixer-rails (9.5.1)
       execjs
+    bcrypt (3.1.12)
     bindex (0.7.0)
     bootsnap (1.4.4)
       msgpack (~> 1.0)
@@ -114,6 +115,7 @@ GEM
     nio4r (2.3.1)
     nokogiri (1.10.3)
       mini_portile2 (~> 2.4.0)
+    pg (1.1.4)
     popper_js (1.14.5)
     public_suffix (3.0.3)
     puma (3.12.1)
@@ -138,6 +140,11 @@ GEM
       nokogiri (>= 1.6)
     rails-html-sanitizer (1.0.4)
       loofah (~> 2.2, >= 2.2.2)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     railties (5.2.3)
       actionpack (= 5.2.3)
       activesupport (= 5.2.3)
@@ -212,6 +219,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bcrypt (~> 3.1.7)
   bootsnap (>= 1.1.0)
   bootstrap (~> 4.3.1)
   byebug
@@ -221,8 +229,10 @@ DEPENDENCIES
   jbuilder (~> 2.5)
   jquery-rails
   listen (>= 3.0.5, < 3.2)
+  pg
   puma (~> 3.11)
   rails (~> 5.2.3)
+  rails_12factor
   sass-rails (~> 5.0)
   selenium-webdriver
   spring
