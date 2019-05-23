@@ -43,6 +43,14 @@ gem 'annotate'
 
 #Add translate gem
 gem 'rails-i18n', '~> 5.1' # For 5.0.x, 5.1.x and 5.2.x
+
+#Proccessing images rails new version
+#gem 'image_processing', '~> 1.9'
+#gem 'mini_magick', '~> 4.9'
+
+
+#Processing images rails version 4
+gem "paperclip", "~> 6.0.0"
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
