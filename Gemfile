@@ -47,6 +47,7 @@ gem 'rails-i18n', '~> 5.1' # For 5.0.x, 5.1.x and 5.2.x
 # gem 'mini_magick', '~> 4.8'
 #Add paperclip for images
 gem "paperclip", "~> 6.0.0"
+gem 'aws-sdk-s3', '~> 1.0.0.rc2'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
